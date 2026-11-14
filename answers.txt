@@ -1,0 +1,6 @@
+Q1: Deleting a running copy in a container does not actually delete the information itself;
+this is a result of self-healing.
+
+Q2: One reason to choose Docker Swarm is that it can make images and one reason to choose K3s instead of full Kubernetes installation is that it's lightweight.
+
+Q3: Rolling updates slowly replace older instances with newer ones, instead of updating the instances all at once, so the service doesn't just go down.
